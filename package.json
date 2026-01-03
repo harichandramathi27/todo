@@ -2,12 +2,11 @@
   "name": "todo-app",
   "version": "1.0.0",
   "type": "module",
-  "homepage":"https://harichandramathi27.github.io/todo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d dist --no-history",
+    "deploy": "gh-pages -d dist --dotfiles",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +20,7 @@
   }
 
 }
+
 
 
 
