@@ -1,4 +1,4 @@
-version:0.2
+version: 0.2
 
 phases:
   install:
@@ -7,7 +7,7 @@ phases:
     commands:
       - echo installing dependencies...
       - npm ci --legacy-peer-deps
-    build:
+  build:
       commands:
         - echo Building the reactapp...
         - npm run build
